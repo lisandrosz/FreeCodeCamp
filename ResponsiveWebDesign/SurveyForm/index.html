@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Padle tournament</title>
+</head>
+
+<body>
+    <form action="" id="survey-form">
+        <h1 id="title">Register form</h1>
+        <p id="description">Sign up for the padel tournament</p>
+        <fieldset>
+            <label id="name-label">Enter your first name: <input type="text" id="name" placeholder="Paco"
+                    required></label>
+            <label>Enter your last name: <input type="text" id="last-name" placeholder="Navarro" required></label>
+            <label id="email-label">Enter your email: <input type="email" id="email" placeholder="paconavarro@gmail.com"
+                    required></label>
+            <label id="number-label">Enter your age: <input type="number" id="number" min="16" max="60" placeholder="30"
+                    required></label>
+        </fieldset>
+
+        <fieldset class="group-input">
+            <label>Choose your gender:</label>
+            <div>
+                <label for="men">
+                    <input type="radio" name="sex" value="men" id="men" required>
+                    Men
+                </label>
+
+                <label for="woman">
+                    <input type="radio" name="sex" value="woman" id="woman">
+                    Woman
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label>Choose your catogory:</label>
+            <select id="dropdown" required>
+                <option>7ma</option>
+                <option>6ta</option>
+                <option>5ta</option>
+                <option>4ta</option>
+                <option>3ra</option>
+                <option>2da</option>
+                <option>1ra</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="group-input">
+            <label>For lunch please come in if you have any preferences or problems:</label>
+            <div>
+                <label for="vegan">
+                    <input type="checkbox" value="vegan" id="vegan">
+                    Vegan
+                </label>
+                <label for="celiac">
+                    <input type="checkbox" value="celiac" id="celiac">
+                    Celiac
+                </label>
+                <label for="diabetic">
+                    <input type="checkbox" value="diabetic" id="diabetic">
+                    Diabetic
+                </label>
+                <label for="vegetarian">
+                    <input type="checkbox" value="vegetarian" id="vegetarian">
+                    Vegetarian
+                </label>
+
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label>Any suggestions: </label>
+            <textarea name="text-comments" id="" rows="4" placeholder="Enter your comments here..."></textarea>
+        </fieldset>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

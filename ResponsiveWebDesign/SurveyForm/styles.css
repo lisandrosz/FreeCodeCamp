@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    width: 99%;
+    background-image: url(https://i.imgur.com/yFvZebm.jpeg)  ; 
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Bebas Neue', cursive;
+}
+
+label {
+    display: block;
+    margin: 5px 5px;
+}
+
+input {
+    margin: 10px auto;
+    display: block;
+    width: 40%;
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 4px 5px 4px rgb(255 255 255 / 50%);
+}
+
+form {
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px auto;
+    width: 60%;
+    background-color: rgba(95, 149, 237, 0.5);
+    border-radius: 5px;
+}
+
+
+fieldset {
+    border: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    text-align: left;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 10px;
+    margin: 5px 5px ;
+    display: inline-block;
+    text-align: left;
+    box-shadow: none;
+}
+
+textarea {
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: azure;
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 4px 5px 4px rgba(255 ,255, 255,0.5);
+}
+
+#submit {
+    font-family: 'Open Sans', sans-serif;
+    background-color: azure;
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 4px 5px 4px rgba(255 ,255, 255,0.5);
+}
